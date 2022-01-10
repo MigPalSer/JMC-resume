@@ -12,7 +12,7 @@ pipeline {
             	sh "echo iniciando"
             	
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/MigPalSer/JMC-resume'
+                git url: 'https://github.com/MigPalSer/JMC-resume'
 
 				
             }
